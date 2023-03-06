@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
-    "cy:dashboard": "npx cypress run --record --key ec46dc36-48e2-416b-83a3-c0d2fef97804"
+    "cy:dashboard": "npx cypress run --record --key ec46dc36-48e2-416b-83a3-c0d2fef97804",
+    "cy:run:first": "npx cypress run --spec 'cypress/e2e/spec1.cy.js'"
   },
   "repository": {
     "type": "git",
