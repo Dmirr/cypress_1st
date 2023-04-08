@@ -1,6 +1,6 @@
 describe("2-st cypress test spec", () => {
   beforeEach(() => {
-    cy.visit("https://staging.lpitko.ru");
+    cy.visit("");
   });
   it("displays text", () => {
     cy.get(
