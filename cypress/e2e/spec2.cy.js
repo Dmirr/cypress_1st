@@ -1,4 +1,4 @@
-describe("2-st cypress test spec", () => {
+describe("2-d cypress test spec", () => {
   beforeEach(() => {
     cy.visit("");
   });
