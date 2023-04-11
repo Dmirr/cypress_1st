@@ -1,5 +1,5 @@
 beforeEach(() => {
-  cy.visit("https://example.cypress.io/todo");
+  cy.visit("/todo");
 });
 describe("1-st cypress test spec", () => {
   before(() => {

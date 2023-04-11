@@ -1,6 +1,6 @@
-describe("2-d cypress test spec", () => {
+describe("3-d cypress test spec", () => {
   beforeEach(() => {
-    cy.visit("");
+    cy.visit("https://santa-secret.ru/");
   });
   it("displays text", () => {
     cy.get(
